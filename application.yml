@@ -32,7 +32,7 @@ redis:
   routes:
     eureka:
       path: /eurekaServer/**
-      url: https://csi-svr-stg-gateway-01.run.aws-usw02-pr.ice.predix.io
+      url: https://csi-svr-stg-sdeureka-01.run.aws-usw02-pr.ice.predix.io
     configServer:
       path: /configserver/**
       url: http://csi-svr-configsv-01.csi-servers:8888
