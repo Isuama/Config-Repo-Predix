@@ -7,9 +7,13 @@ Logging:
     Default: Debug
     System: Information
     Microsoft: Information
-
 eureka:
   client:
+   
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: https://csi-svr-stg-gateway-01.run.aws-usw02-pr.ice.predix.io/eureka/
     registerWithEureka: true
     fetchRegistry: true
     healthcheck:
