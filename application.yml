@@ -27,8 +27,8 @@ redis:
  zuul:
   routes:
     eureka:
-      path: /eureka/**
-      url: http://csi-svr-eureka-01.csi-servers:8761
+      path: /eurekaServer/**
+      url: https://csi-svr-stg-gateway-01.run.aws-usw02-pr.ice.predix.io
     configServer:
       path: /configserver/**
       url: http://csi-svr-configsv-01.csi-servers:8888
